@@ -1,0 +1,32 @@
+{
+  "deb": [
+
+  ],
+  "apt": [
+
+  ],
+  "snap": [
+
+  ],
+  "flatpak": [
+
+  ],
+  "appimage": [
+
+  ],
+  "cargo": [
+
+  ],
+  "go": [
+
+  ],
+  "npm": [
+
+  ],
+  "composer": [
+
+  ],
+  "shell": [
+
+  ]
+}
