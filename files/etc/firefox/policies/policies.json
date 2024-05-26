@@ -1,0 +1,7 @@
+{
+  "policies": {
+    "Preferences": {
+      "toolkit.legacyUserProfileCustomizations.stylesheets": true
+    }
+  }
+}
