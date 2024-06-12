@@ -1,0 +1,23 @@
+[core]
+    autocrlf = false
+    filemode = false
+    ignorecase = false
+    symlinks = false
+[init]
+    defaultBranch = main
+[submodule]
+    recurse = true
+[commit]
+    gpgSign = true
+[tag]
+    forceSignAnnotated = true
+[gpg]
+    program = gpg2
+    format = openpgp
+[gpg "ssh"]
+    program = ssh-keygen
+    allowedSignersFile = ""
+[includeIf "gitdir:~/Projects/"]
+    path = ~/.gitconfig-default
+[includeIf "gitdir:~/Projects/Corporate/"]
+    path = ~/.gitconfig-corporate
